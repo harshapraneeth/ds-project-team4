@@ -382,4 +382,4 @@ The approach is an iterative model in which we start by collecting data and prep
 
 ### Evaluation:
 
-![](images\BLE_final.png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final.png)
