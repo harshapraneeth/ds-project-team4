@@ -382,28 +382,4 @@ The approach is an iterative model in which we start by collecting data and prep
 
 ### Evaluation:
 
- ![](images\BLE_final.png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (1).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (2).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (3).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (4).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (5).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (6).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (7).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (8).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (8).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (9).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (10).png)
-
-![](C:\Users\Harsha Praneeth\Downloads\BLE_final (11).png)
+![](images\BLE_final.png)
