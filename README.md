@@ -382,15 +382,42 @@ The approach is an iterative model in which we start by collecting data and prep
 
 ### Evaluation:
 
+To keep the classifier fair we need nearly same number of instances in each location. Getting data from a super_market was particularly difficult because we had buy something everytime we go there. So at the end we have around 40 thousand instances in each location.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final.png)
+
+Of all the data we can see that the beacons collected from the public_tranportation has most number of unique devices because we are moving to different places and seeing different devices everytime we go to a new place. In contrast we see that same devices or only a few devices coming and going no matter how long we scan indoors.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(1).png)
+
+Here we are comparing rssi with other features. There are no clear clusters forming for each location type. They are rather overlapping each other.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(2).png)
+
+Now here is a 4 by 4 grid of feature comparisons. We can see some clusters forming in some cases. But this wasn’t enough.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(3).png)
+
+The data collected includes advertise flags which denote the type of packet being advertised, like in
+* discoverable mode
+* limited discoverable
+* Simultaneous Le capable etc.
+Interestingly different locations have different number of each advertise-flags
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(4).png)
+
+If we feed this data to a classifier we get not so interesting results. We can only identify a location around 50% of times with this model.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(5).png)
+
+Clearly, we had to derive more features to get more accuracy. So we group the data by 5 second intervals and get 14 new features.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(6).png)
+
+From this new data we can see somewhat clear clusters forming.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(7).png)
+
+With this new data we get better accuracy identifying locations. With Random forest and Decision tree models outperforming others.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(8).png)
+
+The top 3 important features from the decision tree are max_rssi, avg_txpwr and number of unique devices
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(9).png)
+
+You can see in this tree we compare the max_rssi value first and based on that result we classify further using avg_txpwr of n_unique_devices. This a tree of depth 3. Also we can’t show the original tree of depth 10 cause, it won’t fit here.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(10).png)
+
+So the indoors and supermarkets are identified 99% of time. But in case of public_transport and outdoors the classifier get confused. Sometimes public transport is identified as outdoors. The reason could be traffic stops. So when the bus stops at the red light we basically outdoors. That could be the reason for that. Other than that we get satisfying results.
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(11).png)
