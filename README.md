@@ -372,7 +372,7 @@ The approach is an iterative model in which we start by collecting data and prep
 >     print(name, ':', score)
 >  ```
 >
->  Results:
+>  Results: (Accuracy)
 >
 >  - Nearest Neighbors : 68%
 >  - Random Forest : 93%
