@@ -383,3 +383,14 @@ The approach is an iterative model in which we start by collecting data and prep
 ### Evaluation:
 
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final.png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(1).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(2).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(3).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(4).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(5).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(6).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(7).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(8).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(9).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(10).png)
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(11).png)
