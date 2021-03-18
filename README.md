@@ -436,4 +436,4 @@ So the indoors and supermarkets are identified 99% of time. But in case of publi
 
 
 ### Summary:
-Working on this project we have learnt that different locations have significantly different ble environments, which was an eye opener. The signal strength of the device is the most important feature to identify the location. And If it’s not mission critical, we can use ble data to identify a location with only 5 seconds of data. At the end we were able to identify the location type using ble data 9 out of 10 times. Anyone have any question?
+Working on this project we have learnt that different locations have significantly different ble environments, which was an eye opener. The signal strength of the device is the most important feature to identify the location. And If it’s not mission critical, we can use ble data to identify a location with only 5 seconds of data. At the end we were able to identify the location type using ble data 9 out of 10 times.
