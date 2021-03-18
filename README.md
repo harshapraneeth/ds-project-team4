@@ -79,7 +79,7 @@ The approach is an iterative model in which we start by collecting data and prep
 > data2 = {
 >     'public_transport': join_dicts([data1['bus']]), 
 >     'outdoors': join_dicts([data1['busstop'], data1['outdoors']]), 
->     'indoors': join_dicts([data1['ashokroom'], data1['harsharoom'], data1['himaniroom'], 										data1['darpanroom'], data1['adarshroom'], data1['kotaroom']]),
+>     'indoors': join_dicts([data1['ashokroom'], data1['harsharoom'], data1['himaniroom'], data1['darpanroom'], data1['adarshroom'], data1['kotaroom']]),
 >     'super_market': join_dicts([data1['rewe'], data1['aldi']])
 > }
 > 
@@ -116,7 +116,7 @@ The approach is an iterative model in which we start by collecting data and prep
 >     start = x.find('periodicAdvertisingInterval=')+28; end = start+x[start:].find("}")
 >     periodicAdvertisingInterval = x[start:end]; x=x[end:]
 >     if mTxPowerLevel<-999: mTxPowerLevel = 0
->     return [ timestampNanos, device, mAdvertiseFlags, mTxPowerLevel, rssi, eventType, primaryPhy, 					secondaryPhy, advertisingSid, txPower, periodicAdvertisingInterval ]
+>     return [ timestampNanos, device, mAdvertiseFlags, mTxPowerLevel, rssi, eventType, primaryPhy, secondaryPhy, advertisingSid, txPower, periodicAdvertisingInterval ]
 > 
 > # these are the attributes collected from the ble beacons
 > columns1 = ["timestamp", "device_id", "advertise_flag", "transmission_power", "rssi", "event_type", "primary_phy", "secondary_phy", "advertising_sid", "tx_power", "advertising_interval"]
