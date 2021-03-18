@@ -66,7 +66,7 @@ The approach is an iterative model in which we start by collecting data and prep
 >
 > ```python
 > # load data from json file to data1 of type dictionary
-> data1 = json.load(open('data4.json'))
+> data1 = json.load(open('data.json'))
 > 
 > # function to join data from different locations of same type
 > def join_dicts(ds): 
