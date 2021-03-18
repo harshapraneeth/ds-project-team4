@@ -433,3 +433,7 @@ You can see in this tree we compare the max_rssi value first and based on that r
 So the indoors and supermarkets are identified 99% of time. But in case of public_transport and outdoors the classifier get confused. Sometimes public transport is identified as outdoors. The reason could be traffic stops. So when the bus stops at the red light we basically outdoors. That could be the reason for that. Other than that we get satisfying results.
 
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(11).png)
+
+
+### Summary:
+Working on this project we have learnt that different locations have significantly different ble environments, which was an eye opener. The signal strength of the device is the most important feature to identify the location. And If it’s not mission critical, we can use ble data to identify a location with only 5 seconds of data. At the end we were able to identify the location type using ble data 9 out of 10 times. Anyone have any question?
