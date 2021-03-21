@@ -436,6 +436,27 @@ So the indoors and supermarkets are identified 99% of time. But in case of publi
 
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(11).png)
 
+### Evaluation: performance when data from USA is used
+
+Data is collected indoors in Cincinnati and when the classifier is put to test with this data, it correctly identifies that we are indoors 99% of time.
+'indoors': 99.8%, 'outdoors': 0.2%
+
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(111).jpg)
+
+### Evaluation: performance when data from India is used
+
+Data is collected outdoors in an urban area from India. The beacons advertise different packets in India. The packets doesn't contain event_type and many other values. The other values are not important, but the event_type is one of the features used to classify. So we set it to zero. When the classifier is put to test with this data, it correctly identifies that we are outdoors 94% of time.
+'outdoors': 94.4%, 'public_transport': 2.8%, 'indoors': 0.9%, 'super_market': 1.9%
+
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final%20(112).jpg)
+
+But the case is different indoors. In many houses (in India) there are zero bluetooth devices and no packets recieved by the scanner. So when we test the classifier in such locations we are getting 'public_transport' a 100% of time. Suggesting that the classifier cannot perform well in drastically different environments.
+
+Comparision of packets:
+
+![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/Capture.png)
+
+
 
 ### Summary:
-Working on this project we have learnt that different locations have significantly different ble environments, which was an eye opener. The signal strength of the device is the most important feature to identify the location. And If it’s not mission critical, we can use ble data to identify a location with only 5 seconds of data. At the end we were able to identify the location type using ble data 9 out of 10 times.
+Working on this project we have learnt that different locations have significantly different ble environments. The signal strength of the device is the most important feature to identify the location. And If it’s not mission critical, we can use ble data to identify a location with only 5 seconds of data. At the end we were able to identify the location type using ble data 9 out of 10 times.
