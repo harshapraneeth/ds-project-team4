@@ -30,6 +30,8 @@ The goals for this project are:
 
 The approach is an iterative model in which we start by collecting data and preparing it for classification. Then build a model and based on the results we decide to further tweak the parameters of the classifier or collect more data.
 
+here is a link to the app's zip file: https://drive.google.com/file/d/1UgzuAVEnBsYBcehU41Fk66t71-D7Txd_/view?usp=sharing
+
 
 
 ### Implementation:
