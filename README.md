@@ -24,6 +24,10 @@ The goals for this project are:
 - A Random forest model is built to identify location
 - Classifier identifies the location with 92% accuracy
 
+### Demo:
+
+- Application: https://drive.google.com/file/d/15TSRB9EVB60UBxejwvIorXMdfg0bkk5p/view?usp=sharing 
+- classifier: https://drive.google.com/file/d/1srf0QP2yp-myeNDbRrveg3aXM8gRVE39/view?usp=sharing
 
 
 ### Approach:
