@@ -30,6 +30,7 @@ The goals for this project are:
 - classifier: https://drive.google.com/file/d/1srf0QP2yp-myeNDbRrveg3aXM8gRVE39/view?usp=sharing
 
 
+
 ### Approach:
 
 The approach is an iterative model in which we start by collecting data and preparing it for classification. Then build a model and based on the results we decide to further tweak the parameters of the classifier or collect more data.
