@@ -389,7 +389,7 @@ here is a link to the app's zip file: https://drive.google.com/file/d/1UgzuAVEnB
 
 ### Evaluation:
 
-To keep the classifier fair we need nearly same number of instances in each location. Getting data from a super_market was particularly difficult because we had buy something everytime we go there. So at the end we have around 40 thousand instances in each location.
+To keep the classifier fair we need nearly same number of instances in each location. Getting data from a super_market was particularly difficult because we had to buy something everytime we go there. So at the end we have around 40 thousand instances in each location.
 
 ![](https://github.com/harshapraneeth/ds-project-team4/blob/main/images/BLE_final.png)
 
